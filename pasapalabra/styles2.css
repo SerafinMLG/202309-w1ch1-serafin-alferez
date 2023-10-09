@@ -1,0 +1,100 @@
+.letters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* .round-letter-0 {
+    display: inline;
+    color: rgb(20, 213, 20);
+    background-color: ;
+} */
+.right {
+    color: rgb(2, 250, 2);
+    font-weight: 300;
+}
+
+.fail {
+    color: red;
+}
+
+
+
+p {
+    background-color: rgb(143, 143, 208);
+    padding: 20px;
+    border-radius: 23px;
+    color: black;
+    margin-bottom: 5%;
+    font-size: 25px;
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ 
+}
+
+input {
+    width: 250px;
+    height: 50px;
+    border: solid 2px black;
+    text-align: center;
+    border-radius: 10px;
+    background-color:  rgb(216, 216, 231);
+    color: rgb(34, 3, 76);
+    font-size: 25px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    border: solid 2px black;
+    border-radius: 10px;
+    color: black;
+}
+
+.skip, .end-game, .start {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.send {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 0%;
+    background-color: chartreuse;
+
+
+}
+
+
+.skip button {
+    background-color:  rgb(9, 241, 36);
+}
+
+.message {
+    background-color: aqua;
+    color: black;
+    height: 30px;
+}
+
+.result {
+    background-color: rgb(236, 125, 228);
+    color: black;
+    margin-top: -20px;
+    width: 20%;
+    display: flex;
+    margin-left: 38%;
+    height: 30px;
+    text-align: center;
+
+}
+
